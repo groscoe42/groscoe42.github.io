@@ -1,0 +1,50 @@
+.main {height:75%;
+    /* overflow:hidden; */
+}
+.ihold {
+    box-sizing: border-box;
+    float:left;
+    /* overflow:hidden; */
+    margin:10px;
+    width:31%;
+    height:28%;
+    box-shadow:5px 5px 5px #777777}
+
+#ih1 {
+    
+    }
+#ih2 {
+    
+    }
+#ih3 {
+    
+    }
+#ih4 {
+    clear:left;
+    }
+#ih5 {
+    }
+#ih6 {
+    
+    }
+#ih7 {
+    clear:left;
+    }
+#ih8 {
+    }
+#ih9 {
+    }
+.itext{background-color:#4aaaa5;
+    color:#dddddd;
+    padding:2px 10px 2px 10px;
+    position:relative;}
+#it1 {bottom:45px;}
+#it2 {bottom:45px;}
+#it3 {bottom:45px;}
+#it4 {bottom:45px;}
+#it5 {bottom:45px;}
+#it6 {bottom:45px;}
+#it7 {bottom:45px;}
+#it8 {bottom:45px;}
+#it9 {bottom:45px;}
+/* check gitlab change position to floats */

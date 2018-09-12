@@ -1,0 +1,98 @@
+
+html,
+body {height:100%;}
+body {background-image: url("../Images/qbkls/qbkls.png");
+    background-repeat: repeat;
+    background-color:grey;
+    width:100%;
+    margin:0px;
+}
+
+*  {
+    box-sizing: border-box;
+    margin: 0;
+  }
+.wrap {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:99;
+    width:100%;
+    height:15%;
+    background-color:#ffffff;
+    border-bottom-style:solid;
+    border-bottom-color:#dddddd;}
+.topbar {
+    width:960px;
+    margin:auto;
+    height:100%;
+    background-color:#ffffff;
+    border-color:#dddddd;
+    position:relative;
+}
+.name {position:absolute;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    bottom:0;
+    left:0;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size:2em;
+    padding:10px}
+.nav {position:absolute;
+    bottom:15%;
+    right:0;}
+a {font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {color:#ffffff}
+button {font-size:1.1em;
+    background-color:#ffffff;
+    border:none;
+    transition-duration: 0.5s;
+    }
+button:hover {background-color:#4aaaa5;}
+#portb {border-width: 0px 2px 0px 2px;
+    border-style:solid;
+    border-color:#777777}
+.bg {
+    overflow:auto;
+    float:left;
+    padding-top:20px;
+    padding-bottom:20px;
+    width:100%;
+    height:100%;
+}
+.main {box-sizing:border-box;
+    background-color:#ffffff;
+    border-color:#dddddd;
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width:960px;
+    height:fit-content;
+    padding:20px;
+    margin:auto;
+    margin-top:.5%;
+    position:fixed;
+    top:15%;
+    left:25%;
+    overflow:auto;}
+.main::after {
+    content: "";
+    clear: both;
+    display: table;}
+.foot {
+    position:fixed;
+    top:95%;
+    left:0;
+    background-color:#666666;
+    width:100%;
+    height:5%;
+    border-top-style:solid;
+    border-top-width:8px;
+    border-top-color:#4aaaa5}
+h2 {font-family: 'Georgia', Times, "Times New Roman", serif;
+    color:#4aaaa5;}
+
