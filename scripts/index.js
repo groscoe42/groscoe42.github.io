@@ -153,9 +153,9 @@ $(function() {
       e.preventDefault();
   
         $.ajax({
-            url: "https://formspree.io/geoff.c.roscoe@gmail.com",
+            url: "https://usebasin.com/f/a120685cee94.json",
             method: "POST",
-            data: { message: $('form').serialize() },
+            data: { message: $('form').serialize(), email: "geoff.c.roscoe@gmail.com" },
             dataType: "json"
         }).done(function(response) {
             $('#success').addClass('expand');
